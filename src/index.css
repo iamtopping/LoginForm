@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+  height: 120px;
+  width: 100%;
+  background-color: #d8ced4;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  color: #0b0c0c;
+}
+
+header .menu-tab {
+  width: 500px;
+  list-style: none;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header .menu-tab li{
+  cursor: pointer;
+  width: 70px;
+  font-size: 18px;
+  text-align: center;
+  height: auto;
+  /* background-color: #fff; */
+}
+
+header .menu-tab li a:hover{
+  color: #df1313;
+}
+
+header .menu-tab li a{
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-inner .form-group label {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label {
+  color: #FE4880;
+}
+
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f8efef;
+  border-radius: 8px;
+  transition: 0.4s;
+
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px  rgba(0, 0 , 0, 0.2);
+} 
+
+.form-inner button[type='submit']{
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+  color: #fff;
+  background-color: #34dbdb;
+  border-radius: 5px;
+  border: 1px solid #34c8db;
+}
+.form-inner button[type='submit']:hover{
+  background-color: #AED6F1;
+}
+
+
+
+/* BLOG */
+.blog h1{
+  text-align: center;
+  font-size: 48px;
+  margin: 3rem;
+}
+
+.blog .my-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-blog{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.container-blog img{
+  width: 100%;
+  /* max-height: 400px; */
+}
+
+/* About */
+.About h1{
+  text-align: center;
+  font-size: 48px;
+  margin: 3rem;
+}
+
+.About .my-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-About{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.container-About img{
+  width: 100%;
+  /* max-height: 400px; */
+}
+
+/* chatting */
+.chatting h1{
+  text-align: center;
+  font-size: 48px;
+  margin: 3rem;
+}
+
+.chatting .my-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-chatting{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.container-chatting img{
+  width: 100%;
+  /* max-height: 400px; */
+}
+
